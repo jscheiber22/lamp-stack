@@ -1,14 +1,16 @@
 <html>
 	<center>
 
+		<span><?php echo $error;?></span>
+
 		<form action="createaccount.php" method="post">
 			<label for="user">Username:</label>
-			<input type="text" name="user" required="required"/>
+			<input type="text" name="user" required="required"/><span>
 			<label for="email">Email:</label>
 			<input type="text" name="email" required="required"/>
 
 			<button type="submit">Submit</button>
-		</form>
+		</form>		
 
 	</center>
 </html>
